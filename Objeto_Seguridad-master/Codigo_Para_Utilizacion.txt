@@ -1,0 +1,33 @@
+Para el login 	 
+private void "nombre_del_form_Principal"_Load(object sender, EventArgs e)
+        {
+            frmLogin frm = new frmLogin();
+	     frm.ShowDialog();
+	     //Variable = frm.usuario(); 
+        }
+
+//Para Permisos
+clsFuncionesSeguridad seguridad = new clsFuncionesSeguridad();           
+            string permisos = seguridad.Permisos("Numero Aplicacion", "NombreUsuario");
+            Console.WriteLine(permisos);//Los permisos retorn 0 = falso, 1 = true; estan separados por ","
+
+
+//para validar acceso a aplicacion
+clsFuncionesSeguridad seguridad = new clsFuncionesSeguridad();
+            if(seguridad.PermisosAcceso("Numero Aplicacion", "NombreUsuario") == 1)
+            {
+                VentanaaAbrir asignacion = new VentanaaAbrir();
+                asignacion.Show();
+            }
+            else
+            {
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+
+//para registro de usuario en bitacora
+clsVistaBitacora cn = new clsVistaBitacora();
+            cn.user(/*variable que contiene el usuario*/);
+
+//para registro de accion en bitacora
+clsVistaBitacora cn = new clsVistaBitacora();
+            cn.insert(accion, aplicacion);

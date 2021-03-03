@@ -1,0 +1,103 @@
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+D:\U\4 AÑO 2 SEM\ANALISIS 2\SEGUNDO PROYECTO\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\jose lopez\Desktop\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+C:\Users\jose lopez\Desktop\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\NavegadorGit\Objeto-Com-n-Navegador\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+D:\caanc\Desktop\Objeto-Com-n-Navegador-main (2)\Objeto-Com-n-Navegador-main\Pruebas del navegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\jose lopez\Desktop\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\bryan\Desktop\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaVistaSeguridad.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaControladorSeguridad.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\bin\Debug\CapaModeloSeguridad.pdb
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\jose lopez\Documents\GitHub\Navegador\PruebaNavegador\Navegador\CapaControlador\obj\Debug\CapaControlador.pdb

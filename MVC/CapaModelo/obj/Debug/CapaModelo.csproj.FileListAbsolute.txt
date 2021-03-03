@@ -1,0 +1,6 @@
+C:\Users\jmora\source\repos\MVC\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\jmora\source\repos\MVC\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReference.cache
+C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.pdb
