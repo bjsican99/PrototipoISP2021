@@ -1,0 +1,27 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayudas.chm
+Contents file=Ayudas.hhc
+Default Window=Ayuda
+Default topic=Ayuda_Bitacora.html
+Display compile progress=No
+Language=0x409 English (United States)
+
+[WINDOWS]
+Ayuda=,"Ayudas.hhc",,"Ayuda_Bitacora.html","Ayuda_Mantenimiento_Centros.html",,,,,0x2120,,0x3066,,,,,,,,0
+
+
+[FILES]
+Ayuda_Bitacora.html
+Ayuda_Mantenimiento_Centros.html
+Ayuda_Pasaporte.html
+Ayuda_Verificacion_Datos.html
+AyudaLugarFecha.html
+AyudaModificarCita.html
+AyudaMotivo.html
+AyudaNuevaCita.html
+AyudaTipoPasaporte.html
+AyudaVerificar.html
+
+[INFOTYPES]
+

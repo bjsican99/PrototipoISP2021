@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda_Asignacion_de_Aplicaciones.chm
+Contents file=Ayuda_Asignacion_de_Aplicaciones.hhc
+Default Window=Ayuda Asignacion de Aplicaciones
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+Ayuda Asignacion de Aplicaciones="Seguridad - Ayuda Asignacion de Aplicaciones","Ayuda_Asignacion_de_Aplicaciones.hhc","Index.hhk",,"Asignación-de-Aplicaciones.html",,,,,0x23520,,0x3006,,,,,,,,0
+
+
+[FILES]
+Asignación-de-Aplicaciones.html
+
+[INFOTYPES]
+

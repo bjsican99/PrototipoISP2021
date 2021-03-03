@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayudas_Seguridad.chm
+Contents file=Ayudas_Seguridad.hhc
+Default Window=Ayuda Seguridad
+Display compile progress=No
+Language=0x409 English (United States)
+
+[WINDOWS]
+Ayuda Seguridad="Ayuda Seguridad","Ayudas_Seguridad.hhc",,,"Asignación-de-Aplicaciones.html",,,,,0x2120,,0x306e,,,,,,,,0
+
+
+[FILES]
+Asignación-de-Aplicaciones.html
+Asignación-de-aplicaciones-perfil.html
+Mantenimiento-Perfil.html
+
+[INFOTYPES]
+

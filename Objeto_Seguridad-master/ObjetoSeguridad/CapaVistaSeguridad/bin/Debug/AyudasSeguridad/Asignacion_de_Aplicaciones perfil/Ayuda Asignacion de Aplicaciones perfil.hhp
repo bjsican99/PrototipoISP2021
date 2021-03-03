@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda Asignacion de Aplicaciones perfil.chm
+Contents file=Asignacion de Aplicaciones perfil.hhc
+Default Window=Asignacion de Aplicaciones perfil
+Display compile progress=No
+Language=0x409 English (United States)
+
+[WINDOWS]
+Asignacion de Aplicaciones perfil="Ayuda Asignacion de Aplicaciones perfil","Asignacion de Aplicaciones perfil.hhc",,,"Asignación-de-aplicaciones-perfil.html",,,,,0x2120,,0x3006,,,,,,,,0
+
+
+[FILES]
+Asignación-de-aplicaciones-perfil.html
+
+[INFOTYPES]
+

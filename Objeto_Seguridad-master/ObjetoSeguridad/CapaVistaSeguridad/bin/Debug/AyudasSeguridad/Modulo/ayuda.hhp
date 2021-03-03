@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ayuda.chm
+Contents file=ayuda.hhc
+Default Window=ayuda
+Display compile progress=No
+Language=0x409 English (United States)
+
+[WINDOWS]
+ayuda="Ayuda","ayuda.hhc",,"Ayuda-Modulo.html",,,,,,0x22520,,0x3006,,,,,,,,0
+
+
+[FILES]
+Ayuda-Modulo.html
+
+[INFOTYPES]
+
