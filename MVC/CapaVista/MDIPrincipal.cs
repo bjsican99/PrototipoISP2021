@@ -253,5 +253,23 @@ namespace CapaVista
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }
+
+        private void bodegasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("304", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso a Mantenimiento Bodegas", 304);
+                frmBodegas bodegas = new frmBodegas(txtusuario.Text);
+                bodegas.MdiParent = this;
+                bodegas.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar a Mantenimiento Bodegas", 304);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
     }
 }

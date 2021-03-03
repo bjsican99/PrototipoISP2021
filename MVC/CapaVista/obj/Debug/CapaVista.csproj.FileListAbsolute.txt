@@ -66,3 +66,5 @@ D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVi
 D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoMarca.resources
 D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoProductos.resources
 D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVista.Properties.Resources.resources
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmBodegas.resources
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaVista\obj\Debug\CapaVista.Procesos.frmExistencia.resources
