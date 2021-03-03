@@ -115,3 +115,12 @@ C:\Users\jmora\Desktop\Git\Pasaporte\SGP_Equipo1\Objeto_Seguridad-master\ObjetoS
 C:\Users\jmora\Desktop\Git\Pasaporte\SGP_Equipo1\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.csproj.CopyComplete
 C:\Users\jmora\Desktop\Git\Pasaporte\SGP_Equipo1\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.dll
 C:\Users\jmora\Desktop\Git\Pasaporte\SGP_Equipo1\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\bin\Debug\CapaControladorSeguridad.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\bin\Debug\CapaControladorSeguridad.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\bin\Debug\CapaModeloSeguridad.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\bin\Debug\CapaModeloSeguridad.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.csproj.CopyComplete
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\Objeto_Seguridad-master\ObjetoSeguridad\CapaControladorSeguridad\obj\Debug\CapaControladorSeguridad.pdb
