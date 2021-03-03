@@ -37,8 +37,10 @@ namespace CapaVista.Mantenimientos
             this.txtCodigoMarca = new System.Windows.Forms.TextBox();
             this.txtNombreMarca = new System.Windows.Forms.TextBox();
             this.txtEstatusMarca = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvMarca = new System.Windows.Forms.DataGridView();
+            this.rbtnHabilitado = new System.Windows.Forms.RadioButton();
+            this.rbtnDeshabilidado = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMarca)).BeginInit();
             this.SuspendLayout();
             // 
             // navegador1
@@ -48,6 +50,7 @@ namespace CapaVista.Mantenimientos
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1059, 105);
             this.navegador1.TabIndex = 0;
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // lblcodMarca
             // 
@@ -80,7 +83,7 @@ namespace CapaVista.Mantenimientos
             // 
             this.txtCodigoMarca.Location = new System.Drawing.Point(214, 175);
             this.txtCodigoMarca.Name = "txtCodigoMarca";
-            this.txtCodigoMarca.Size = new System.Drawing.Size(100, 20);
+            this.txtCodigoMarca.Size = new System.Drawing.Size(165, 20);
             this.txtCodigoMarca.TabIndex = 4;
             this.txtCodigoMarca.Tag = "codigo_marca";
             // 
@@ -88,25 +91,52 @@ namespace CapaVista.Mantenimientos
             // 
             this.txtNombreMarca.Location = new System.Drawing.Point(214, 226);
             this.txtNombreMarca.Name = "txtNombreMarca";
-            this.txtNombreMarca.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreMarca.Size = new System.Drawing.Size(165, 20);
             this.txtNombreMarca.TabIndex = 5;
             this.txtNombreMarca.Tag = "nombre_marca";
+            this.txtNombreMarca.Visible = false;
+            this.txtNombreMarca.TextChanged += new System.EventHandler(this.txtNombreMarca_TextChanged);
+            this.txtNombreMarca.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreMarca_KeyPress);
             // 
             // txtEstatusMarca
             // 
-            this.txtEstatusMarca.Location = new System.Drawing.Point(214, 282);
+            this.txtEstatusMarca.Location = new System.Drawing.Point(214, 337);
             this.txtEstatusMarca.Name = "txtEstatusMarca";
             this.txtEstatusMarca.Size = new System.Drawing.Size(100, 20);
             this.txtEstatusMarca.TabIndex = 6;
             this.txtEstatusMarca.Tag = "estatus_marca";
             // 
-            // dataGridView1
+            // dgvMarca
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(473, 139);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(522, 235);
-            this.dataGridView1.TabIndex = 7;
+            this.dgvMarca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMarca.Location = new System.Drawing.Point(473, 139);
+            this.dgvMarca.Name = "dgvMarca";
+            this.dgvMarca.Size = new System.Drawing.Size(522, 235);
+            this.dgvMarca.TabIndex = 7;
+            // 
+            // rbtnHabilitado
+            // 
+            this.rbtnHabilitado.AutoSize = true;
+            this.rbtnHabilitado.Location = new System.Drawing.Point(218, 283);
+            this.rbtnHabilitado.Name = "rbtnHabilitado";
+            this.rbtnHabilitado.Size = new System.Drawing.Size(72, 17);
+            this.rbtnHabilitado.TabIndex = 8;
+            this.rbtnHabilitado.TabStop = true;
+            this.rbtnHabilitado.Text = "Habilitado";
+            this.rbtnHabilitado.UseVisualStyleBackColor = true;
+            this.rbtnHabilitado.CheckedChanged += new System.EventHandler(this.rbtnHabilitado_CheckedChanged);
+            // 
+            // rbtnDeshabilidado
+            // 
+            this.rbtnDeshabilidado.AutoSize = true;
+            this.rbtnDeshabilidado.Location = new System.Drawing.Point(296, 283);
+            this.rbtnDeshabilidado.Name = "rbtnDeshabilidado";
+            this.rbtnDeshabilidado.Size = new System.Drawing.Size(89, 17);
+            this.rbtnDeshabilidado.TabIndex = 9;
+            this.rbtnDeshabilidado.TabStop = true;
+            this.rbtnDeshabilidado.Text = "Deshabilitado";
+            this.rbtnDeshabilidado.UseVisualStyleBackColor = true;
+            this.rbtnDeshabilidado.CheckedChanged += new System.EventHandler(this.rbtnDeshabilidado_CheckedChanged);
             // 
             // frmMantenimientoMarca
             // 
@@ -115,7 +145,9 @@ namespace CapaVista.Mantenimientos
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1083, 494);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.rbtnDeshabilidado);
+            this.Controls.Add(this.rbtnHabilitado);
+            this.Controls.Add(this.dgvMarca);
             this.Controls.Add(this.txtEstatusMarca);
             this.Controls.Add(this.txtNombreMarca);
             this.Controls.Add(this.txtCodigoMarca);
@@ -125,8 +157,9 @@ namespace CapaVista.Mantenimientos
             this.Controls.Add(this.navegador1);
             this.DoubleBuffered = true;
             this.Name = "frmMantenimientoMarca";
-            this.Text = "frmMantenimientoMarca";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Mantenimiento Marca";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMarca)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,6 +174,8 @@ namespace CapaVista.Mantenimientos
         private System.Windows.Forms.TextBox txtCodigoMarca;
         private System.Windows.Forms.TextBox txtNombreMarca;
         private System.Windows.Forms.TextBox txtEstatusMarca;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvMarca;
+        private System.Windows.Forms.RadioButton rbtnHabilitado;
+        private System.Windows.Forms.RadioButton rbtnDeshabilidado;
     }
 }

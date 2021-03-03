@@ -45,10 +45,10 @@ namespace CapaVista.Mantenimientos
             this.cbxCodMarca = new System.Windows.Forms.ComboBox();
             this.txtExistenciaProd = new System.Windows.Forms.TextBox();
             this.txtestatus = new System.Windows.Forms.TextBox();
-            this.rbnHabilitado = new System.Windows.Forms.RadioButton();
-            this.rbnDesabilitado = new System.Windows.Forms.RadioButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.rbtnHabilitado = new System.Windows.Forms.RadioButton();
+            this.rbtnDeshabilidado = new System.Windows.Forms.RadioButton();
+            this.dgvProducto = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProducto)).BeginInit();
             this.SuspendLayout();
             // 
             // navegador1
@@ -58,6 +58,7 @@ namespace CapaVista.Mantenimientos
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1059, 105);
             this.navegador1.TabIndex = 0;
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // label1
             // 
@@ -119,6 +120,7 @@ namespace CapaVista.Mantenimientos
             this.txtCodigoProducto.Name = "txtCodigoProducto";
             this.txtCodigoProducto.Size = new System.Drawing.Size(77, 20);
             this.txtCodigoProducto.TabIndex = 7;
+            this.txtCodigoProducto.Tag = "codigo_producto";
             // 
             // txtNombreProducto
             // 
@@ -126,13 +128,18 @@ namespace CapaVista.Mantenimientos
             this.txtNombreProducto.Name = "txtNombreProducto";
             this.txtNombreProducto.Size = new System.Drawing.Size(185, 20);
             this.txtNombreProducto.TabIndex = 8;
+            this.txtNombreProducto.Tag = "nombre_producto";
+            this.txtNombreProducto.TextChanged += new System.EventHandler(this.txtNombreProducto_TextChanged);
+            this.txtNombreProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreProducto_KeyPress);
             // 
             // txtCodLinea
             // 
+            this.txtCodLinea.Enabled = false;
             this.txtCodLinea.Location = new System.Drawing.Point(189, 214);
             this.txtCodLinea.Name = "txtCodLinea";
             this.txtCodLinea.Size = new System.Drawing.Size(35, 20);
             this.txtCodLinea.TabIndex = 9;
+            this.txtCodLinea.Tag = "codigo_linea";
             // 
             // cbxCodLinea
             // 
@@ -141,13 +148,17 @@ namespace CapaVista.Mantenimientos
             this.cbxCodLinea.Name = "cbxCodLinea";
             this.cbxCodLinea.Size = new System.Drawing.Size(144, 21);
             this.cbxCodLinea.TabIndex = 10;
+            this.cbxCodLinea.Tag = "saltar";
+            this.cbxCodLinea.SelectedIndexChanged += new System.EventHandler(this.cbxCodLinea_SelectedIndexChanged);
             // 
             // txtCodMarca
             // 
+            this.txtCodMarca.Enabled = false;
             this.txtCodMarca.Location = new System.Drawing.Point(189, 246);
             this.txtCodMarca.Name = "txtCodMarca";
             this.txtCodMarca.Size = new System.Drawing.Size(35, 20);
             this.txtCodMarca.TabIndex = 11;
+            this.txtCodMarca.Tag = "codigo_marca";
             // 
             // cbxCodMarca
             // 
@@ -156,6 +167,8 @@ namespace CapaVista.Mantenimientos
             this.cbxCodMarca.Name = "cbxCodMarca";
             this.cbxCodMarca.Size = new System.Drawing.Size(144, 21);
             this.cbxCodMarca.TabIndex = 12;
+            this.cbxCodMarca.Tag = "saltar";
+            this.cbxCodMarca.SelectedIndexChanged += new System.EventHandler(this.cbxCodMarca_SelectedIndexChanged);
             // 
             // txtExistenciaProd
             // 
@@ -163,6 +176,8 @@ namespace CapaVista.Mantenimientos
             this.txtExistenciaProd.Name = "txtExistenciaProd";
             this.txtExistenciaProd.Size = new System.Drawing.Size(185, 20);
             this.txtExistenciaProd.TabIndex = 13;
+            this.txtExistenciaProd.Tag = "existencia_producto";
+            this.txtExistenciaProd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtExistenciaProd_KeyPress);
             // 
             // txtestatus
             // 
@@ -170,36 +185,40 @@ namespace CapaVista.Mantenimientos
             this.txtestatus.Name = "txtestatus";
             this.txtestatus.Size = new System.Drawing.Size(100, 20);
             this.txtestatus.TabIndex = 14;
+            this.txtestatus.Tag = "estatus_producto";
+            this.txtestatus.Visible = false;
             // 
-            // rbnHabilitado
+            // rbtnHabilitado
             // 
-            this.rbnHabilitado.AutoSize = true;
-            this.rbnHabilitado.Location = new System.Drawing.Point(189, 311);
-            this.rbnHabilitado.Name = "rbnHabilitado";
-            this.rbnHabilitado.Size = new System.Drawing.Size(72, 17);
-            this.rbnHabilitado.TabIndex = 15;
-            this.rbnHabilitado.TabStop = true;
-            this.rbnHabilitado.Text = "Habilitado";
-            this.rbnHabilitado.UseVisualStyleBackColor = true;
+            this.rbtnHabilitado.AutoSize = true;
+            this.rbtnHabilitado.Location = new System.Drawing.Point(189, 311);
+            this.rbtnHabilitado.Name = "rbtnHabilitado";
+            this.rbtnHabilitado.Size = new System.Drawing.Size(72, 17);
+            this.rbtnHabilitado.TabIndex = 15;
+            this.rbtnHabilitado.TabStop = true;
+            this.rbtnHabilitado.Text = "Habilitado";
+            this.rbtnHabilitado.UseVisualStyleBackColor = true;
+            this.rbtnHabilitado.CheckedChanged += new System.EventHandler(this.rbtnHabilitado_CheckedChanged);
             // 
-            // rbnDesabilitado
+            // rbtnDeshabilidado
             // 
-            this.rbnDesabilitado.AutoSize = true;
-            this.rbnDesabilitado.Location = new System.Drawing.Point(280, 311);
-            this.rbnDesabilitado.Name = "rbnDesabilitado";
-            this.rbnDesabilitado.Size = new System.Drawing.Size(83, 17);
-            this.rbnDesabilitado.TabIndex = 16;
-            this.rbnDesabilitado.TabStop = true;
-            this.rbnDesabilitado.Text = "Desabilitado";
-            this.rbnDesabilitado.UseVisualStyleBackColor = true;
+            this.rbtnDeshabilidado.AutoSize = true;
+            this.rbtnDeshabilidado.Location = new System.Drawing.Point(280, 311);
+            this.rbtnDeshabilidado.Name = "rbtnDeshabilidado";
+            this.rbtnDeshabilidado.Size = new System.Drawing.Size(89, 17);
+            this.rbtnDeshabilidado.TabIndex = 16;
+            this.rbtnDeshabilidado.TabStop = true;
+            this.rbtnDeshabilidado.Text = "Deshabilitado";
+            this.rbtnDeshabilidado.UseVisualStyleBackColor = true;
+            this.rbtnDeshabilidado.CheckedChanged += new System.EventHandler(this.rbtnDeshabilidado_CheckedChanged);
             // 
-            // dataGridView1
+            // dgvProducto
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(456, 123);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(586, 211);
-            this.dataGridView1.TabIndex = 17;
+            this.dgvProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProducto.Location = new System.Drawing.Point(456, 123);
+            this.dgvProducto.Name = "dgvProducto";
+            this.dgvProducto.Size = new System.Drawing.Size(586, 211);
+            this.dgvProducto.TabIndex = 17;
             // 
             // frmMantenimientoProductos
             // 
@@ -208,9 +227,9 @@ namespace CapaVista.Mantenimientos
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1085, 450);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.rbnDesabilitado);
-            this.Controls.Add(this.rbnHabilitado);
+            this.Controls.Add(this.dgvProducto);
+            this.Controls.Add(this.rbtnDeshabilidado);
+            this.Controls.Add(this.rbtnHabilitado);
             this.Controls.Add(this.txtestatus);
             this.Controls.Add(this.txtExistenciaProd);
             this.Controls.Add(this.cbxCodMarca);
@@ -228,8 +247,9 @@ namespace CapaVista.Mantenimientos
             this.Controls.Add(this.navegador1);
             this.DoubleBuffered = true;
             this.Name = "frmMantenimientoProductos";
-            this.Text = "frmMantenimientoProductos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Mantenimiento Productos";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProducto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,8 +272,8 @@ namespace CapaVista.Mantenimientos
         private System.Windows.Forms.ComboBox cbxCodMarca;
         private System.Windows.Forms.TextBox txtExistenciaProd;
         private System.Windows.Forms.TextBox txtestatus;
-        private System.Windows.Forms.RadioButton rbnHabilitado;
-        private System.Windows.Forms.RadioButton rbnDesabilitado;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.RadioButton rbtnHabilitado;
+        private System.Windows.Forms.RadioButton rbtnDeshabilidado;
+        private System.Windows.Forms.DataGridView dgvProducto;
     }
 }

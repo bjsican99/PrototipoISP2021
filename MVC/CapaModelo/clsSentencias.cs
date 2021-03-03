@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CapaModelo
 {
-   public class Sentencias
+   public class clsSentencias
     {
         Conexion cn = new Conexion();
         OdbcCommand Comm;
@@ -29,6 +29,8 @@ namespace CapaModelo
             }
 
         }
+
+        //funcion para obtener los datos solititados para el combobox
         public DataTable funcObtenerCamposCombobox(string Comando)
         {
             try

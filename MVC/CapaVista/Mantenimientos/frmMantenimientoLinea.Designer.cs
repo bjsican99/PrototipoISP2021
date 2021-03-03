@@ -38,6 +38,8 @@ namespace CapaVista.Mantenimientos
             this.txtNombreLinea = new System.Windows.Forms.TextBox();
             this.txtEstatusLinea = new System.Windows.Forms.TextBox();
             this.dgvLinea = new System.Windows.Forms.DataGridView();
+            this.rbtnHabilitado = new System.Windows.Forms.RadioButton();
+            this.rbtnDeshabilidado = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinea)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,6 +50,7 @@ namespace CapaVista.Mantenimientos
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1059, 105);
             this.navegador1.TabIndex = 0;
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // lblCodigoLinea
             // 
@@ -94,14 +97,17 @@ namespace CapaVista.Mantenimientos
             this.txtNombreLinea.Size = new System.Drawing.Size(100, 20);
             this.txtNombreLinea.TabIndex = 5;
             this.txtNombreLinea.Tag = "nombre_linea";
+            this.txtNombreLinea.TextChanged += new System.EventHandler(this.txtNombreLinea_TextChanged);
+            this.txtNombreLinea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreLinea_KeyPress);
             // 
             // txtEstatusLinea
             // 
-            this.txtEstatusLinea.Location = new System.Drawing.Point(167, 252);
+            this.txtEstatusLinea.Location = new System.Drawing.Point(167, 312);
             this.txtEstatusLinea.Name = "txtEstatusLinea";
             this.txtEstatusLinea.Size = new System.Drawing.Size(100, 20);
             this.txtEstatusLinea.TabIndex = 6;
             this.txtEstatusLinea.Tag = "estatus_linea";
+            this.txtEstatusLinea.Visible = false;
             // 
             // dgvLinea
             // 
@@ -111,6 +117,30 @@ namespace CapaVista.Mantenimientos
             this.dgvLinea.Size = new System.Drawing.Size(623, 188);
             this.dgvLinea.TabIndex = 7;
             // 
+            // rbtnHabilitado
+            // 
+            this.rbtnHabilitado.AutoSize = true;
+            this.rbtnHabilitado.Location = new System.Drawing.Point(167, 253);
+            this.rbtnHabilitado.Name = "rbtnHabilitado";
+            this.rbtnHabilitado.Size = new System.Drawing.Size(72, 17);
+            this.rbtnHabilitado.TabIndex = 8;
+            this.rbtnHabilitado.TabStop = true;
+            this.rbtnHabilitado.Text = "Habilitado";
+            this.rbtnHabilitado.UseVisualStyleBackColor = true;
+            this.rbtnHabilitado.CheckedChanged += new System.EventHandler(this.rbtnHabilitado_CheckedChanged);
+            // 
+            // rbtnDeshabilidado
+            // 
+            this.rbtnDeshabilidado.AutoSize = true;
+            this.rbtnDeshabilidado.Location = new System.Drawing.Point(167, 276);
+            this.rbtnDeshabilidado.Name = "rbtnDeshabilidado";
+            this.rbtnDeshabilidado.Size = new System.Drawing.Size(83, 17);
+            this.rbtnDeshabilidado.TabIndex = 9;
+            this.rbtnDeshabilidado.TabStop = true;
+            this.rbtnDeshabilidado.Text = "Desabilitado";
+            this.rbtnDeshabilidado.UseVisualStyleBackColor = true;
+            this.rbtnDeshabilidado.CheckedChanged += new System.EventHandler(this.rbtnDeshabilidado_CheckedChanged);
+            // 
             // frmMantenimientoLinea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,6 +148,8 @@ namespace CapaVista.Mantenimientos
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1085, 450);
+            this.Controls.Add(this.rbtnDeshabilidado);
+            this.Controls.Add(this.rbtnHabilitado);
             this.Controls.Add(this.dgvLinea);
             this.Controls.Add(this.txtEstatusLinea);
             this.Controls.Add(this.txtNombreLinea);
@@ -128,6 +160,7 @@ namespace CapaVista.Mantenimientos
             this.Controls.Add(this.navegador1);
             this.DoubleBuffered = true;
             this.Name = "frmMantenimientoLinea";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mantenimiento Linea";
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinea)).EndInit();
             this.ResumeLayout(false);
@@ -145,5 +178,7 @@ namespace CapaVista.Mantenimientos
         private System.Windows.Forms.TextBox txtNombreLinea;
         private System.Windows.Forms.TextBox txtEstatusLinea;
         private System.Windows.Forms.DataGridView dgvLinea;
+        private System.Windows.Forms.RadioButton rbtnHabilitado;
+        private System.Windows.Forms.RadioButton rbtnDeshabilidado;
     }
 }
