@@ -20,7 +20,12 @@ namespace CapaControlador
             string Comando = string.Format("SELECT " + Campo1 + " ," + Campo2 + " FROM " + Tabla + " WHERE " + Estado + "= 1;");
             return Modelo.funcObtenerCamposCombobox(Comando);
         }
+        public OdbcDataReader funcionConsultar(string bodega, string producto)
+        {
+            string Comando = string.Format("SELECT saldo_existencia FROM existencias WHERE codigo_bodega = " + bodega + " , codigo_bodega = " + producto + ";");
+            return Modelo.funcConsulta(Comando);
 
+        }
 
     }
 }

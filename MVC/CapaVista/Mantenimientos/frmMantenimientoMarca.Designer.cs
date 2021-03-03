@@ -94,7 +94,6 @@ namespace CapaVista.Mantenimientos
             this.txtNombreMarca.Size = new System.Drawing.Size(165, 20);
             this.txtNombreMarca.TabIndex = 5;
             this.txtNombreMarca.Tag = "nombre_marca";
-            this.txtNombreMarca.Visible = false;
             this.txtNombreMarca.TextChanged += new System.EventHandler(this.txtNombreMarca_TextChanged);
             this.txtNombreMarca.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreMarca_KeyPress);
             // 
