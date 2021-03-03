@@ -79,20 +79,7 @@ namespace CapaVista
 
         private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (seguridad.PermisosAcceso("3", txtusuario.Text) == 1)
-            {
-                bit.user(txtusuario.Text);
-                bit.insert("Ingreso A Mantenimiento Aplicaciones", 3);
-                frmMantenimiento mantenimiento = new frmMantenimiento(txtusuario.Text);
-                mantenimiento.MdiParent = this;
-                mantenimiento.Show();
-            }
-            else
-            {
-                bit.user(txtusuario.Text);
-                bit.insert("Trato de Ingresar A Mantenimiento Aplicaciones", 3);
-                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
-            }
+            
         }
 
         private void cambioDeContrasenaToolStripMenuItem_Click(object sender, EventArgs e)

@@ -4,3 +4,9 @@ C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyRe
 C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.dll
 C:\Users\jmora\source\repos\MVC\CapaModelo\obj\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\bin\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\bin\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\obj\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaModelo\obj\Debug\CapaModelo.pdb

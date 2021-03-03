@@ -16,3 +16,12 @@ C:\Users\jmora\Desktop\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.csp
 C:\Users\jmora\Desktop\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
 C:\Users\jmora\Desktop\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.dll
 C:\Users\jmora\Desktop\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\bin\Debug\CapaControlador.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\bin\Debug\CapaControlador.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\bin\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\bin\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\obj\Debug\CapaControlador.dll
+D:\Documentos\Proyectos-Software\PrototipoISP2021\MVC\CapaControlador\obj\Debug\CapaControlador.pdb
